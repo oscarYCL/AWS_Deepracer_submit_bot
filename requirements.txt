@@ -1,3 +1,2 @@
 selenium
-this
 webdriver_manager.chrome
