@@ -1,4 +1,3 @@
-from this import d
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
@@ -17,7 +16,7 @@ def login2aws():
     driver.find_element("xpath", '//*[@id="password"]').send_keys(login.Password)
     driver.find_element("xpath", '//*[@id="signin_button"]').click()
     time.sleep(2)
-    driver.find_element("xpath", '//*[@id="errorPage"]/p/a').click()
+    driver.find_element("xpath", '//*[@id="errorPage"]/p/a').click() #Error page
 
 def submit():
     driver.get(login.League_url)
