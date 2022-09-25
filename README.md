@@ -10,7 +10,8 @@ Just a submit bot ~~~~~~~
 ```bash
 git clone https://github.com/oscarYCL/AWS_Deepracer_submit_bot.git
 cd AWS_Deepracer_submit_bot
-pip3 install -r requirements.txt
+python3 -m venv venv
 . venv/bin/activate
+pip3 install -r requirements.txt
 python3 main.py
 ```
